@@ -6,9 +6,9 @@ module.exports = {
     // console.log(config, options)
 
     // changes the name of the entry point from index -> main.js
-    // config.entry.main = ['./api/server.js', './reports/index.js']
     config.entry = {
       main: './index.js',
+      // newEntryPoint: './file.js'
     }
 
     return config
