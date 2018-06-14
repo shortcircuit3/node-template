@@ -33,6 +33,7 @@
     "supertest": "^3.0.0"
   },
   "scripts": {
-    "dev": "backpack"
+    "dev": "backpack",
+    "test": "jest"
   }
 }
