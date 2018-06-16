@@ -34,6 +34,7 @@
   },
   "scripts": {
     "dev": "backpack",
+    "start": "backpack build && node build/main.js",
     "test": "jest"
   }
 }
