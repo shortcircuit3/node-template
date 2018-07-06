@@ -16,7 +16,5 @@ RUN yarn install
 COPY . .
 
 EXPOSE 8080
-
-CMD [ "yarn", "run", "build" ]
-
-CMD [ "yarn", "start" ]
+RUN yarn run build
+CMD yarn start
